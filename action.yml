@@ -10,6 +10,6 @@ outputs:
     description: 'The time we greeted you'
 runs:
   using: 'docker'
-  image: 'tianon/latex'
+  image: 'Dockerfile'
   args:
     - pdflatex  -synctex=1 -interaction=nonstopmode -file-line-error -recorder  "thesis.tex"
