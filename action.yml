@@ -10,7 +10,8 @@ description: 'Build a latex file'
 #     description: 'The time we greeted you'
 runs:
   using: 'docker'
-  image: 'docker://martinay1/latex-build'
+  image: 'Dockerfile'
+#   image: 'docker://martinay1/latex-build'
   args:
     - -interaction=nonstopmode 
     - -file-line-error 
